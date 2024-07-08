@@ -1,1 +1,7 @@
-hello
+if game.PlaceId == 7346416636 then
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/salmsalm123/supported/main/PopItTradingFree'))()
+elseif game.PlaceId == 7903991471 then
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/salmsalm123/supported/main/PetsTradingFree'))()
+else
+    print("unsupported game")
+end
